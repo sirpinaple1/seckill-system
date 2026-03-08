@@ -1,0 +1,19 @@
+# 忽略构建产物和依赖
+frontend/node_modules/
+frontend/dist/
+backend/target/
+*.class
+*.jar
+*.log
+
+# 忽略环境配置
+.env
+.env.local
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略临时文件
+*.swp
+*.tmp
